@@ -1,3 +1,3 @@
 rootProject.name = 'cloud-editor'
-include 'discovery'
+include 'discovery', 'config'
 

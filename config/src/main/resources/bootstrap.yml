@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///${user.home}/application-config
+
+server:
+  port: 8081
+
+eureka:
+   client:
+    serviceUrl:
+      defaultZone: http://localhost:8082/eureka/
+    region: default
+    registryFetchIntervalSeconds: 5
