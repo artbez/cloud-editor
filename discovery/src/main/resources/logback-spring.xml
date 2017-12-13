@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <!-- Java 9 modules provides some restrictions so there are some errors -->
+    <logger name="com.sun.jersey.server.impl.wadl.WadlApplicationContextImpl" level="OFF"/>
+</configuration>
