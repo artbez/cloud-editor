@@ -5,9 +5,12 @@ spring:
       discovery:
         service-id: config
         enabled: true
+  devtools:
+    restart:
+      enabled: true
+      exclude: iimetra/**
 
 eureka:
   client:
     serviceUrl:
-      defaultZone:
-        http://localhost:8082/eureka/
+      defaultZone: http://localhost:8082/eureka/
