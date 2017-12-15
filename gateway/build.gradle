@@ -48,7 +48,7 @@ task processStatic(type:Copy, dependsOn: webpack) {
 }
 
 tasks.idea {
-    dependsOn = [ideaModule, processStatic]
+    dependsOn = [cleanIdeaModule, ideaModule, processStatic]
 }
 
 dependencies {
@@ -57,7 +57,7 @@ dependencies {
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-eureka'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-zuul'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-feign'
-    compile group: 'org.springframework.boot', name: 'spring-boot-devtools'
+    //compile group: 'org.springframework.boot', name: 'spring-boot-devtools'
     compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.0'
     testCompile group: 'junit', name: 'junit'
 }
