@@ -1,4 +1,4 @@
-package iimetra.cloud.editor.discovery.robot;
+package iimetra.cloud.editor.gateway.robot;
 
 public class Robot {
 

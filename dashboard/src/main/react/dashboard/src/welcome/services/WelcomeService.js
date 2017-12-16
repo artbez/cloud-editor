@@ -13,7 +13,9 @@ class WelcomeService extends Component {
           <div class="col-sm-4">
             <p>The robots editor. Here you can create diagrams of robot's activities
               and generate source code for you own robot.</p>
-            <img src={robots} class="img-responsive margin" alt="Image"/>
+            <a href={'/robots-editor/'}>
+              <img src={robots} class="img-responsive margin" alt="Image"/>
+            </a>
           </div>
           <div class="col-sm-4">
             <p>Online robo shop. Here you can buy and download some updates, visit forum and etc. </p>

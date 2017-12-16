@@ -1,4 +1,4 @@
-package iimetra.cloud.editor.discovery.filters;
+package iimetra.cloud.editor.gateway.filters;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;

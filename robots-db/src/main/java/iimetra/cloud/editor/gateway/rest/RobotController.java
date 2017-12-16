@@ -1,6 +1,6 @@
-package iimetra.cloud.editor.discovery.rest;
+package iimetra.cloud.editor.gateway.rest;
 
-import iimetra.cloud.editor.discovery.robot.Robot;
+import iimetra.cloud.editor.gateway.robot.Robot;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

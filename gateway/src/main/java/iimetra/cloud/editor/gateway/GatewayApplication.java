@@ -1,16 +1,16 @@
-package iimetra.cloud.editor.discovery;
+package iimetra.cloud.editor.gateway;
 
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 @SpringBootApplication
 @EnableEurekaClient
-@EnableConfigServer
-public class ConfigServer {
+@EnableZuulProxy
+public class GatewayApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ConfigServer.class, args);
+        SpringApplication.run(GatewayApplication.class, args);
     }
 }

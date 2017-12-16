@@ -41,4 +41,4 @@ dependencies {
     testCompile group: 'junit', name: 'junit'
 }
 
-mainClassName = "iimtra.cloud.editor.discovery.DescoveryServer"
+mainClassName = "iimtra.cloud.editor.config.ConfigServer"

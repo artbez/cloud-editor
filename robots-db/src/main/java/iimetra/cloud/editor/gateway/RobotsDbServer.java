@@ -1,4 +1,4 @@
-package iimetra.cloud.editor.discovery;
+package iimetra.cloud.editor.gateway;
 
 
 import org.springframework.boot.SpringApplication;
