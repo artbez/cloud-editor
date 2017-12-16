@@ -1,3 +1,4 @@
 rootProject.name = 'cloud-editor'
-include 'discovery', 'config', 'gateway'
+include 'discovery', 'config', 'gateway', 'robots-editor'
+include 'robots-editor'
 

@@ -1,7 +1,7 @@
 spring:
   cloud:
     config:
-      name: gateway
+      name: robotseditor
       discovery:
         service-id: config
         enabled: true
