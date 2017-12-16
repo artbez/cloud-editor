@@ -1,9 +1,9 @@
 spring:
   application:
-    name: gateway
+    name: dashboard
   cloud:
     config:
-      name: gateway
+      name: dashboard
       discovery:
         service-id: config
         enabled: true

@@ -1,9 +1,9 @@
 spring:
   application:
-    name: gateway
+    name: robotsdb
   cloud:
     config:
-      name: gateway
+      name: robotsdb
       discovery:
         service-id: config
         enabled: true
