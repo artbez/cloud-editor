@@ -3,4 +3,5 @@ include 'discovery', 'config', 'robots-editor'
 include 'robots-db'
 include 'gateway'
 include 'dashboard'
+include 'logging'
 
