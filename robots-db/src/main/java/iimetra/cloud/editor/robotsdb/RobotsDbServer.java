@@ -1,16 +1,16 @@
-package iimetra.cloud.editor.gateway;
+package iimetra.cloud.editor.robotsdb;
 
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EnableEurekaClient
-@EnableConfigServer
-public class ConfigServer {
+@EnableJpaRepositories
+public class RobotsDbServer {
     public static void main(String[] args) {
-        SpringApplication.run(ConfigServer.class, args);
+        SpringApplication.run(RobotsDbServer.class, args);
     }
 }

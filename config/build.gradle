@@ -33,8 +33,6 @@ dependencyManagement {
 }
 
 dependencies {
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
-    //compile group: 'org.springframework.boot', name: 'spring-boot-starter-parent'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-eureka'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-config-server'
     compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.0'
